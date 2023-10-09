@@ -2,7 +2,7 @@
 import random
 #asignamos "false" a la variable adivinado para controlar el while
 adivinado=False
-#generamos el aleatorio
+#generamos el aleatorio, ENTRE EL 1 Y EL 10
 numero_aleatorio=random.randint(1, 10)
 #el bucle se repetira mientras adivinado sea false
 while(adivinado==False):
